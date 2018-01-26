@@ -4,7 +4,8 @@ nodes.customNode = require('./nodeHelpers/customNode');
 nodes.infuraNode = require('./nodeHelpers/infura');
 nodes.metamaskNode = require('./nodeHelpers/metamask');
 nodes.nodeTypes = {
-    ETH: "ETH",
+	 AURA: "AURA",
+	 ETH: "ETH",
     ETC: "ETC",
     MUS: "MUSIC",
     Ropsten: "ROPSTEN ETH",
@@ -241,6 +242,19 @@ nodes.nodeList = {
         'estimateGas': true,
         'service': 'ellaism.org',
         'lib': new nodes.customNode('https://jsonrpc.ellaism.org', '')
+    },
+	 'aura': {
+        'name': 'AURA',
+        'blockExplorerTX': 'https://explore.auraledger.com/#/tx/[[txHash]]',
+        'blockExplorerAddr': 'https://explore.auraledger.com/#/address/[[address]]',
+        'type': nodes.nodeTypes.AURA,
+        'eip155': true,
+        'chainId': 312,
+        'tokenList': require('./tokens/auraTokens.json'),
+        'abiList': require('./abiDefinitions/auraAbi.json'),
+        'estimateGas': true,
+        'service': 'auraledger.com',
+        'lib': new nodes.customNode('https://pool.auraledger.com', '')
     }
 };
 
