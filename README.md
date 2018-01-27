@@ -1,4 +1,4 @@
-### [http://wallet.auraledger.com](http://wallet.auraledger.com)
+### [https://wallet.auraledger.com](https://wallet.auraledger.com)
 
 
 ### MEW Around the Web
