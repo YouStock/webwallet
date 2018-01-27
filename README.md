@@ -1,12 +1,8 @@
-### [https://www.Aura Wallet](https://www.Aura Wallet)
+### [http://wallet.auraledger.com](http://wallet.auraledger.com)
 
-### [Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm)
+### [Download the Latest Release](https://github.com/YouStock/aurawallet/releases/latest)
 
-### [Download the Latest Release](https://github.com/kvhnuke/etherwallet/releases/latest)
-
-- etherwallet-vX.X.X.X.zip is the smaller package containing the gh-pages branch aka Aura Wallet
-- chrome-extension-vX.X.X.X.zip is the chrome extension package
-- source code is the full source for developers to get started with (although cloning or forking the mercury branch is probably a better choice)
+- aurawallet-vX.X.X.X.zip is the smaller package containing the dist branch aka Aura Wallet
 
 
 ### MEW Around the Web
@@ -33,10 +29,9 @@
 -  MEW BTC Donation Address: 1MEWT2SGbqtz6mPCgFcnea8XmWV5Z4Wc6
 
 
-### `mercury` is the development branch. gh-pages contains only the smaller dist folder only and is served to Aura Wallet
+### `venus` is the development branch. dist contains only the smaller dist folder only and is served to Aura Wallet
 
 - Our infrastructure ("node") is on AWS. [You can also use your own node.](https://myetherwallet.github.io/knowledge-base/networks/run-your-own-node-with-myetherwallet.html)
-- We also provide access to Infura.io & Etherscan.io nodes. Use the drop-down in the top-right.
 
 
 ### MyEtherWallet
@@ -83,8 +78,8 @@
 - [It is recommended you start here.](https://myetherwallet.github.io/knowledge-base/getting-started/getting-started-new.html)
 - You can run Aura Wallet on your computer. You can create a wallet completely offline & send transactions from the "Offline Transaction" page.
 
-1. Go to https://github.com/kvhnuke/etherwallet/releases/latest.
-2. Click on dist-vX.X.X.X.zip.
+1. Go to https://github.com/YouStock/aurawallet/releases/latest.
+2. Click on aurawallet-vX.X.X.X.zip.
 3. Move zip to an airgapped computer.
 4. Unzip it and double-click index.html.
 5. Aura Wallet is now running entirely on your computer.
@@ -119,8 +114,6 @@ If you want to help contribute, here's what you need to know to get it up and ru
 - `includes` are the pieces of the pages / the pages themselves. These are pretty self-explanatory and where you will make most frontend changes.
 - `layouts` are the pages themselves. These basically take all the pieces of the pages and compile into one massive page. The navigation is also found here...sort of.
     * `index.html` is for Aura Wallet.
-    * `cx-wallet.html` is the main page for the Chrome Extension.
-    * `embedded.html` is for https://www.myetherwallet.com/embedded.html.
 
 - You can control what shows up on Aura Wallet vs the Chrome Extension by using: `@@if (site === 'cx' )  {  ...  }` and `@@if (site === 'mew' ) { ... }`. Check out `sendTransaction.tpl` to see it in action. The former will only compile for the Chrome Extension. The latter only to Aura Wallet.
 - `embedded.html` is for embedding the wallet generation into third-party sites. [Read more about it and how to listen for the address generated here.](https://www.reddit.com/r/ethereum/comments/4gn37o/embeddable_myetherwallet_super_simple_wallet/)
