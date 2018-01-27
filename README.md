@@ -1,4 +1,4 @@
-### [http://wallet.auraledger.com](http://wallet.auraledger.com)
+### [https://wallet.auraledger.com](https://wallet.auraledger.com)
 
 ### [Download the Latest Release](https://github.com/YouStock/aurawallet/releases/latest)
 

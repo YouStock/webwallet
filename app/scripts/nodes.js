@@ -245,8 +245,8 @@ nodes.nodeList = {
     },
 	 'aura': {
         'name': 'AURA',
-        'blockExplorerTX': 'http://explore.auraledger.com/#/tx/[[txHash]]',
-        'blockExplorerAddr': 'http://explore.auraledger.com/#/address/[[address]]',
+        'blockExplorerTX': 'https://explore.auraledger.com/#/tx/[[txHash]]',
+        'blockExplorerAddr': 'https://explore.auraledger.com/#/address/[[address]]',
         'type': nodes.nodeTypes.AURA,
         'eip155': true,
         'chainId': 312,
