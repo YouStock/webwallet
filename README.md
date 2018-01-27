@@ -1,5 +1,9 @@
 ### [https://wallet.auraledger.com](https://wallet.auraledger.com)
 
+### [Download the Latest Release](https://github.com/YouStock/aurawallet/releases/latest)
+
+- aurawallet-vX.X.X.X.zip is the smaller package containing the dist branch aka Aura Wallet
+
 
 ### MEW Around the Web
 
@@ -28,7 +32,6 @@
 ### `venus` is the development branch. dist contains only the smaller dist folder only and is served to Aura Wallet
 
 - Our infrastructure ("node") is on AWS. [You can also use your own node.](https://myetherwallet.github.io/knowledge-base/networks/run-your-own-node-with-myetherwallet.html)
-- We also provide access to Infura.io & Etherscan.io nodes. Use the drop-down in the top-right.
 
 
 ### MyEtherWallet
@@ -76,7 +79,7 @@
 - You can run Aura Wallet on your computer. You can create a wallet completely offline & send transactions from the "Offline Transaction" page.
 
 1. Go to https://github.com/YouStock/aurawallet/releases/latest.
-2. Click on dist-vX.X.X.X.zip.
+2. Click on aurawallet-vX.X.X.X.zip.
 3. Move zip to an airgapped computer.
 4. Unzip it and double-click index.html.
 5. Aura Wallet is now running entirely on your computer.
