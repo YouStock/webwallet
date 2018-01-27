@@ -136,7 +136,7 @@
         <li translate="HELP_3_Desc_2"> Navigate to the "View Wallet Info" page. </li>
         }
         @@if (site === 'cx' )  {
-        <li translate="HELP_3_Desc_3"> Navigate to the MyEtherWallet.com "View Wallet Info" page. </li>
+        <li translate="HELP_3_Desc_3"> Navigate to the Aura Wallet "View Wallet Info" page. </li>
         }
         <li translate="HELP_3_Desc_4"> Select your wallet file -or- your private key and unlock your wallet. </li>
         <li translate="HELP_3_Desc_5"> If the wallet is encrypted, a text box will automatically appear. Enter the password. </li>
@@ -220,19 +220,19 @@
   <article class="collapse-container">
     <div  ng-click="h5 = !h5">
       <a class="collapse-button"><span ng-show="!h5">+</span><span ng-show="h5">-</span></a>
-      <h4 translate="HELP_5_Title">5. How do I run MyEtherWallet.com offline/locally? </h4>
+      <h4 translate="HELP_5_Title">5. How do I run Aura Wallet offline/locally? </h4>
     </div>
     <div ng-show="h5">
-    <p translate="HELP_5_Desc_1"> You can run MyEtherWallet.com on your computer instead of from the GitHub servers. You can generatea a wallet completely offline and send transactions from the "Offline Transaction" page. </p>
+    <p translate="HELP_5_Desc_1"> You can run Aura Wallet on your computer instead of from the GitHub servers. You can generatea a wallet completely offline and send transactions from the "Offline Transaction" page. </p>
     <ol>
       <li translate="HELP_2b_Desc_1">Go to https://github.com/kvhnuke/etherwallet/releases/latest:</li>
       <li translate="HELP_2b_Desc_2">Click the file below that looks like dist-vX.X.X.zip</li>
       <li translate="HELP_2b_Desc_3">Move zip to an airgapped computer.</li>
       <li translate="HELP_2b_Desc_4">Unzip it and double-click `index.html`.</li>
-      <li translate="HELP_5_Desc_7">MyEtherWallet.com is now running entirely on your computer.</li>
+      <li translate="HELP_5_Desc_7">Aura Wallet is now running entirely on your computer.</li>
     </ol>
     <p translate="HELP_5_Desc_8"> In case you are not familiar, you need to keep the entire folder in order to run the website, not just index.html. Don't touch or move anything around in the folder. If you are storing a backup of the MyEtherWallet repo for the future, we recommend just storing the ZIP so you can be sure the folder contents stay intact.</p>
-    <p translate="HELP_5_Desc_9"> As we are constantly updating MyEtherWallet.com, we recommend you periodically update your saved version of the repo. </p>
+    <p translate="HELP_5_Desc_9"> As we are constantly updating Aura Wallet, we recommend you periodically update your saved version of the repo. </p>
     </div>
   </article>
 }
@@ -317,7 +317,7 @@
     </div>
     <div ng-show="h8">
       <p translate="HELP_8_Desc_1">MyEtherWallet is not a web wallet. You don't have a login and nothing ever gets saved to our servers. It is simply an interface that allows you interact with the blockchain.</p>
-      <p translate="HELP_8_Desc_2">If MyEtherWallet.com goes down, you would have to find another way (like geth or Ethereum Wallet / Mist) to do what we are doing. But you wouldn't have to "get" your Ether out of MyEtherWallet because it's not in MyEtherWallet. It's in whatever wallet your generated via our site.</p>
+      <p translate="HELP_8_Desc_2">If Aura Wallet goes down, you would have to find another way (like geth or Ethereum Wallet / Mist) to do what we are doing. But you wouldn't have to "get" your Ether out of MyEtherWallet because it's not in MyEtherWallet. It's in whatever wallet your generated via our site.</p>
       <p translate="HELP_8_Desc_3"> You can import your unencrypted private key and your Geth/Mist Format (encrypted) files directly into geth / Ethereum Wallet / Mist very easily now. See question #10 below. </p>
       <p translate="HELP_8_Desc_4">In addition, the likelihood of us taking MyEtherWallet down is slim to none. It costs us almost nothing to maintain as we aren't storing any information. If we do take the domain down, it still is, and always will be, publicly available at <a href="https://github.com/kvhnuke/etherwallet/tree/gh-pages" target="_blank" rel="noopener noreferrer">https://github.com/kvhnuke/etherwallet</a>. You can download the ZIP there and run it locally. </p>
     </div>
@@ -447,10 +447,10 @@
   <article class="collapse-container">
     <div ng-click="h14 = !h14" >
       <a class="collapse-button"><span ng-show="!h14">+</span><span ng-show="h14">-</span></a>
-        <h4 translate="HELP_14_Title"> 14. Some sites randomize (seed) the private key generation via mouse movements. MyEtherWallet.com doesn't do this. Is the random number generation for MyEtherWallet safe?</h4>
+        <h4 translate="HELP_14_Title"> 14. Some sites randomize (seed) the private key generation via mouse movements. Aura Wallet doesn't do this. Is the random number generation for MyEtherWallet safe?</h4>
       </div>
       <div ng-show="h14">
-        <p translate="HELP_14_Desc_1">While the mouse moving thing is clever and we understand why people like it, the reality is window.crypto ensures more entropy than your mouse movements. The mouse movements aren't unsafe, it's just that we (and tons of other crypto experments) believe in window.crypto. In addition, MyEtherWallet.com can be used on touch devices. Here's a <a href="https://www.reddit.com/r/ethereum/comments/2bilqg/note_there_is_a_paranoid_highsecurity_way_to/cj5sgrm" target="_blank" rel="noopener noreferrer">conversation between an angry redditor and Vitalik Buterin regarding mouse movements v. window.crypto</a> and here is the <a href="https://dvcs.w3.org/hg/webcrypto-api/raw-file/tip/spec/Overview.html#dfn-GlobalCrypto" target="_blank" rel="noopener noreferrer">the window.crypto w3 spec</a>.</p>
+        <p translate="HELP_14_Desc_1">While the mouse moving thing is clever and we understand why people like it, the reality is window.crypto ensures more entropy than your mouse movements. The mouse movements aren't unsafe, it's just that we (and tons of other crypto experments) believe in window.crypto. In addition, Aura Wallet can be used on touch devices. Here's a <a href="https://www.reddit.com/r/ethereum/comments/2bilqg/note_there_is_a_paranoid_highsecurity_way_to/cj5sgrm" target="_blank" rel="noopener noreferrer">conversation between an angry redditor and Vitalik Buterin regarding mouse movements v. window.crypto</a> and here is the <a href="https://dvcs.w3.org/hg/webcrypto-api/raw-file/tip/spec/Overview.html#dfn-GlobalCrypto" target="_blank" rel="noopener noreferrer">the window.crypto w3 spec</a>.</p>
     </div>
   </article>
 
@@ -565,7 +565,7 @@
       <h6 translate="HELP_SecCX_Desc_3"> What information is saved? </h6>
       <p translate="HELP_SecCX_Desc_4"> The address, nickname, private key is stored in chrome.storage. The private key is encrypted using the password you set when you added the wallet. The nickname and wallet address is not encrypted. </p>
       <h6 translate="HELP_SecCX_Desc_5"> Why aren't the nickname and wallet address encrypted? </h6>
-      <p translate="HELP_SecCX_Desc_6"> If we were to encrypt these items, you would need to enter a password each time you wanted to view your account balance or view the nicknames. If this concerns you, we recommend you use MyEtherWallet.com instead of this Chrome Extension. </p>
+      <p translate="HELP_SecCX_Desc_6"> If we were to encrypt these items, you would need to enter a password each time you wanted to view your account balance or view the nicknames. If this concerns you, we recommend you use Aura Wallet instead of this Chrome Extension. </p>
     </div>
   </article>
 }

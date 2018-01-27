@@ -10,7 +10,7 @@
         <article class="onboarding__modal" ng-show="showOnboardSlide==1">
           <h3 class="onboarding__title">
             <span translate="ONBOARD_welcome_title">
-              Welcome to MyEtherWallet.com
+              Welcome to Aura Wallet
             </span>
             <br />
             <small translate="ONBOARD_welcome_content__3">
@@ -177,7 +177,7 @@
                   It is made up of all the individual transactions sent from MyEtherWallet, MetaMask, Exodus, Mist, Geth, Parity, and everywhere else.
                 </li>
                 <li translate="ONBOARD_blockchain_content__5">
-                  When you see your balance on MyEtherWallet.com or view your transactions on [etherscan.io](https://etherscan.io), you are seeing data on the blockchain, not in our personal systems.
+                  When you see your balance on Aura Wallet or view your transactions on [etherscan.io](https://etherscan.io), you are seeing data on the blockchain, not in our personal systems.
                 </li>
                 <li translate="ONBOARD_blockchain_content__6">
                    Again: <strong>we are not a bank</strong>.
@@ -319,15 +319,15 @@
           <section class="row row--flex">
             <div class="col-xs-12 col-sm-8 onboarding__content">
               <ul>
-                <li translate="ONBOARD_secure_1_content__2">
+                <!--li translate="ONBOARD_secure_1_content__2">
                   Install [EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) or [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) or [Cryptonite by Metacert](https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige) or the [MyEtherWallet Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm) to block malicious websites.
-                </li>
+                </li-->
                 <li translate="ONBOARD_secure_1_content__3">
-                  Always check the URL: `https://www.myetherwallet.com`.
+                  Always check the URL: `http://wallet.auraledger.com`.
                 </li>
-                <li translate="ONBOARD_secure_1_content__4">
-                  Always make sure the URL bar has `MYETHERWALLET LLC` in green.
-                </li>
+                <!--li translate="ONBOARD_secure_1_content__4">
+                  Always make sure the URL bar has WALLET.AURALEDGER.COM
+                </li-->
                 <li translate="ONBOARD_secure_1_content__5">
                   Do not trust messages or links sent to you randomly via email, Slack, Reddit, Twitter, etc.
                 </li>

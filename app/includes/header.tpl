@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Aura Web Wallet</title>
-<meta property="og:title" content="Aura Web Wallet: Your Key to Aura">
-<meta property="og:site_name" content="Aura Web Wallet: Your Key to Aura">
-<meta name="twitter:title" content="Aura Web Wallet: Your Key to Aura">
-<meta name="apple-mobile-web-app-title" content="Aura Web Wallet: Your Key to Aura">
+<title>Aura Wallet</title>
+<meta property="og:title" content="Aura Wallet: Your Key to Aura">
+<meta property="og:site_name" content="Aura Wallet: Your Key to Aura">
+<meta name="twitter:title" content="Aura Wallet: Your Key to Aura">
+<meta name="apple-mobile-web-app-title" content="Aura Wallet: Your Key to Aura">
 <link href="https://www.myetherwallet.com" rel="canonical">
 <meta content="https://www.myetherwallet.com" property="og:url">
 <meta content="https://www.myetherwallet.com" name="twitter:url">
@@ -32,7 +32,7 @@
 <meta name="theme-color" content="#1d6986">
 <meta name="apple-mobile-web-app-status-bar-style" content="#1d6986">
 <meta property="og:url" content="https://www.myetherwallet.com" />
-<meta property="og:title" content="Aura Web Wallet  &middot; Your Key to Aura" />
+<meta property="og:title" content="Aura Wallet  &middot; Your Key to Aura" />
 <meta property="og:type" content="website">
 <meta property="og:image" content="/images/myetherwallet-logo-banner.png" />
 <meta property="og:image" content="/images/myetherwallet-logo.png" />
@@ -57,7 +57,7 @@
   "contactType" : "customer service"
 }],
 "logo" : "https://www.myetherwallet.com/images/myetherwallet-logo.png",
-"description": "Aura Web Wallet is a free, open-source, client-side interface for generating Aura wallets &amp; more. Interact with the Aura blockchain easily &amp; securely.",
+"description": "Aura Wallet is a free, open-source, client-side interface for generating Aura wallets &amp; more. Interact with the Aura blockchain easily &amp; securely.",
 "sameAs" : [
   "https://wallet.auraledger.com/",
   "https://www.facebook.com/youstockplatform/",
@@ -77,11 +77,11 @@
 <header class="{{curNode.name}} {{curNode.service}} {{curNode.service}} nav-index-{{gService.currentTab}}" aria-label="header" ng-controller='tabsCtrl' >
 
 @@if (site === 'mew' ) {
-  <div class="small announcement annoucement-danger">
+  <!--div class="small announcement annoucement-danger">
     <div class="container">
       DON'T GET PHISHED, please! 🎣 Thank you! 🤗
       <br />
-      1. BOOKMARK <a href="https://www.myetherwallet.com"> MYETHERWALLET.COM </a>
+      1. BOOKMARK <a href="http://wallet.auraledger.com"> WALLET.AURALEDGER.COM </a>
       <span class="hidden-xs">
         &nbsp;&nbsp;&nbsp;&nbsp;
         2. INSTALL <a href="https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn" target="_blank" rel="noopener noreferrer">EAL</a>
@@ -91,7 +91,7 @@
         <a href="https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige" target="_blank" rel="noopener noreferrer">Cryptonite</a>
       </span>
     </div>
-  </div>
+  </div-->
 }
 
 <section class="bg-gradient header-branding">
@@ -189,12 +189,11 @@
          aria-haspopup="true"
 			ng-disabled="true"
          aria-label="change node. current node {{curNode.name}} node by {{curNode.service}}"
-         class="dropdown-toggle  btn btn-white"
-         ng-click="dropdownNode = !dropdownNode">
+         class="dropdown-toggle  btn btn-white">
+         <!--ng-click="dropdownNode = !dropdownNode">-->
            <span translate="X_Network">Network:</span>
            {{curNode.name}}
            <small>({{curNode.service}})</small>
-           <i class="caret"></i>
       </a>
       <ul class="dropdown-menu" ng-show="dropdownNode">
         <li ng-repeat="(key, value) in nodeList">
