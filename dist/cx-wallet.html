@@ -1097,10 +1097,10 @@
       </h5>
       <ul class="account-info">
         <li>
-          <a href="https://etherscan.io/address/{{wallet.getAddressString()}}"
+          <a href="https://explore.auraledger.com/#/address/{{wallet.getAddressString()}}"
              target="_blank"
              rel="noopener noreferrer">
-               https://etherscan.io/address/ {{wallet.getAddressString()}}
+               https://explore.auraledger.com/#/address/ {{wallet.getAddressString()}}
           </a>
         </li>
       </ul>
@@ -4037,7 +4037,7 @@ Rate: {{swapOrder.swapRate}} {{swapOrder.swapPair}}</textarea>
     <tr>
       <td>Name:</td>
       <td class="mono">
-        <a href="https://etherscan.io/enslookup?q={{objENS.name}}.eth"
+        <a href="https://explore.auraledger.com/enslookup?q={{objENS.name}}.eth"
            target="_blank"
            rel="noopener noreferrer">
               {{objENS.name}}.eth
@@ -4260,7 +4260,7 @@ Rate: {{swapOrder.swapRate}} {{swapOrder.swapPair}}</textarea>
       <!-- After Sent: Place Bid / Start Auction -->
       <div class="form-group well" ng-show="objENS.txSent && (objENS.status==ensModes.auction || objENS.status==ensModes.open)">
         <h4 class="text-danger">If you haven't done so already, please screenshot & save the below information.</h4>
-        <p>Please check your address on <a href="https://etherscan.io/">https://etherscan.io/</a> to ensure your BID TX is on the blockchain, without errors.</p>
+        <p>Please check your address on <a href="https://explore.auraledger.com/">https://explore.auraledger.com/</a> to ensure your BID TX is on the blockchain, without errors.</p>
         
          <table class="table table-striped table-ens-modal">
   <tbody>
@@ -4456,7 +4456,7 @@ Rate: {{swapOrder.swapRate}} {{swapOrder.swapPair}}</textarea>
     <tr>
       <td>Name:</td>
       <td class="mono">
-        <a href="https://etherscan.io/enslookup?q={{objENS.name}}.eth"
+        <a href="https://explore.auraledger.com/enslookup?q={{objENS.name}}.eth"
            target="_blank"
            rel="noopener noreferrer">
               {{objENS.name}}.eth
@@ -4560,7 +4560,7 @@ Rate: {{swapOrder.swapRate}} {{swapOrder.swapPair}}</textarea>
         Generate and send this transaction &ndash; leave "Amount to Send" as <strong>0</strong>
       </li>
       <li>
-        <a href="https://etherscan.io/tx/0x60eec50b492375bce25684f806599873b7f682e1ba504c8bed7cc90c33368118"
+        <a href="https://explore.auraledger.com/#/tx/0x60eec50b492375bce25684f806599873b7f682e1ba504c8bed7cc90c33368118"
            target="_blank"
            rel="noopener noreferrer">
               TX should look like this.
@@ -4612,7 +4612,7 @@ Rate: {{swapOrder.swapRate}} {{swapOrder.swapPair}}</textarea>
         Generate and send this transaction &ndash; leave "Amount to Send" as <strong>0</strong>
       </li>
       <li>
-        <a href="https://etherscan.io/tx/0xe4b8cbbb9c30a9066e4d430e347e07442ccc99b927ed73280792aee718ecbd30"
+        <a href="https://explore.auraledger.com/#/tx/0xe4b8cbbb9c30a9066e4d430e347e07442ccc99b927ed73280792aee718ecbd30"
            target="_blank"
            rel="noopener noreferrer">
               TX should look like this.
@@ -5730,7 +5730,7 @@ Rate: {{swapOrder.swapRate}} {{swapOrder.swapPair}}</textarea>
 
     <div class="cont-md" ng-show="txInfo.status == txStatus.mined">
       <h3 class="text-success" translate="tx_FoundOnChain"> Transaction Found </h3>
-      <h5> <a href="https://etherscan.io/tx/{{ tx.hash }}" target="_blank" rel="noopener noreferrer"> {{ tx.hash }} </a> </h5>
+      <h5> <a href="https://explore.auraledger.com/#/tx/{{ tx.hash }}" target="_blank" rel="noopener noreferrer"> {{ tx.hash }} </a> </h5>
       <p><strong translate="tx_FoundOnChain_1"></strong></p>
       <ul>
         <li translate="tx_FoundOnChain_2"></li>
@@ -5775,7 +5775,7 @@ Rate: {{swapOrder.swapRate}} {{swapOrder.swapPair}}</textarea>
               TX Hash
             </td>
             <td>
-              <a href="https://etherscan.io/tx/{{ txInfo.hash }}" target="_blank" rel="noopener noreferrer">
+              <a href="https://explore.auraledger.com/#/tx/{{ txInfo.hash }}" target="_blank" rel="noopener noreferrer">
                 {{ txInfo.hash }}
               </a>
             </td>
@@ -5785,7 +5785,7 @@ Rate: {{swapOrder.swapRate}} {{swapOrder.swapPair}}</textarea>
               From Address
             </td>
             <td>
-              <a href="https://etherscan.io/address/{{ txInfo.from }}" target="_blank" rel="noopener noreferrer">
+              <a href="https://explore.auraledger.com/#/address/{{ txInfo.from }}" target="_blank" rel="noopener noreferrer">
                 {{ txInfo.from }}
               </a>
             </td>
@@ -5795,7 +5795,7 @@ Rate: {{swapOrder.swapRate}} {{swapOrder.swapPair}}</textarea>
               To Address
             </td>
             <td>
-              <a href="https://etherscan.io/address/{{ txInfo.to }}" target="_blank" rel="noopener noreferrer">
+              <a href="https://explore.auraledger.com/#/address/{{ txInfo.to }}" target="_blank" rel="noopener noreferrer">
                 {{ txInfo.to }}
               </a>
             </td>
@@ -6602,7 +6602,7 @@ Powered By <a target="_blank" href="https://www.myetherwallet.com">MyEtherWallet
               </h5>
               <ul>
                 <li translate="ONBOARD_welcome_content__5">
-                  MyEtherWallet is a free, open-source, client-side interface.
+                  Aura Wallet is based on MyEtherWallet , a free, open-source, client-side interface.
                 </li>
                 <li translate="ONBOARD_welcome_content__6">
                   We allow you to interact directly with the blockchain while remaining in full control of your keys &amp; your funds.
@@ -6744,7 +6744,7 @@ Powered By <a target="_blank" href="https://www.myetherwallet.com">MyEtherWallet
                   It is made up of all the individual transactions sent from MyEtherWallet, MetaMask, Exodus, Mist, Geth, Parity, and everywhere else.
                 </li>
                 <li translate="ONBOARD_blockchain_content__5">
-                  When you see your balance on Aura Wallet or view your transactions on [etherscan.io](https://etherscan.io), you are seeing data on the blockchain, not in our personal systems.
+                  When you see your balance on Aura Wallet or view your transactions on [explore.auraledger.com](https://explore.auraledger.com), you are seeing data on the blockchain, not in our personal systems.
                 </li>
                 <li translate="ONBOARD_blockchain_content__6">
                    Again: <strong>we are not a bank</strong>.
@@ -6851,12 +6851,6 @@ Powered By <a target="_blank" href="https://www.myetherwallet.com">MyEtherWallet
                 </li>
                 <li translate="ONBOARD_whymew_content__4">
                   If you don't find these things valuable, ask yourself why you think the blockchain and cryptocurrencies are valuable. 😉
-                </li>
-                <li translate="ONBOARD_whymew_content__5">
-                  If you don't like the sound of this, consider using [Coinbase](https://www.coinbase.com/) or [Blockchain.info](https://blockchain.info/wallet/#/signup). They have more familiar accounts with usernames &amp; passwords.
-                </li>
-                <li translate="ONBOARD_whymew_content__6">
-                  If you are scared but want to use MEW, [get a hardware wallet](https://myetherwallet.github.io/knowledge-base/hardware-wallets/hardware-wallet-recommendations.html)! These keep your keys secure.
                 </li>
               </ul>
             </div>
@@ -7034,7 +7028,9 @@ Powered By <a target="_blank" href="https://www.myetherwallet.com">MyEtherWallet
             </div>
             <div class="col-xs-12 col-sm-7">
               <ul>
-                <li>
+                
+<!--
+<li>
                   <a href="https://myetherwallet.github.io/knowledge-base/hardware-wallets/hardware-wallet-recommendations.html"
                      target="_blank" rel="noopener noreferrer" class="strong" translate="ONBOARD_final_content__2">
                       Get a hardware wallet
@@ -7076,11 +7072,13 @@ Powered By <a target="_blank" href="https://www.myetherwallet.com">MyEtherWallet
                        Learn More or Contact Us
                   </a>
                 </li>
+
+-->
                 <li>
                   <a ng-click="onboardModal.close();globalService.currentTab=globalService.tabs.sendTransaction.id"
                      class="strong">
                      <span translate="ONBOARD_final_content__9">
-                       OMG, please just let me send FFS.
+                       Close
                      </span>
                   </a>
                 </li>

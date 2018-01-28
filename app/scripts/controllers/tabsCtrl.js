@@ -57,7 +57,7 @@ var tabsCtrl = function($scope, globalService, $translate, $sce) {
 
     function makeNewNode(key) {
       var curNode;
-      if ($scope.nodeList[key]) {
+      if ($scope.nodeList[key] && false) { //always start with default
         curNode = $scope.nodeList[key];
       } else {
         curNode = $scope.nodeList[$scope.defaultNodeKey];

@@ -78,7 +78,7 @@
         Generate and send this transaction &ndash; leave "Amount to Send" as <strong>0</strong>
       </li>
       <li>
-        <a href="https://etherscan.io/tx/0x60eec50b492375bce25684f806599873b7f682e1ba504c8bed7cc90c33368118"
+        <a href="https://explore.auraledger.com/#/tx/0x60eec50b492375bce25684f806599873b7f682e1ba504c8bed7cc90c33368118"
            target="_blank"
            rel="noopener noreferrer">
               TX should look like this.
@@ -130,7 +130,7 @@
         Generate and send this transaction &ndash; leave "Amount to Send" as <strong>0</strong>
       </li>
       <li>
-        <a href="https://etherscan.io/tx/0xe4b8cbbb9c30a9066e4d430e347e07442ccc99b927ed73280792aee718ecbd30"
+        <a href="https://explore.auraledger.com/#/tx/0xe4b8cbbb9c30a9066e4d430e347e07442ccc99b927ed73280792aee718ecbd30"
            target="_blank"
            rel="noopener noreferrer">
               TX should look like this.

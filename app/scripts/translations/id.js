@@ -138,7 +138,7 @@ ONBOARD_blockchain_content__1   :  'Blockchain itu seperti spreadsheet besar yan
 ONBOARD_blockchain_content__2   :  'Blockchain mencatat siapa yang mengirimkan berapa banyak koin kepada siapa, dan berapa saldo setiap akunnya?.',
 ONBOARD_blockchain_content__3   :  'Catatan tersebut disimpan dan dikelola oleh ribuan orang (penambang) di seluruh dunia yang memiliki komputer khusus.',
 ONBOARD_blockchain_content__4   :  'Blok di blockchain berisi catatan dari semua transaksi individual yang dikirim dari MyEtherWallet, MetaMask, Exodus, Mist, Geth, Parity, dan lain-lainnya..',
-ONBOARD_blockchain_content__5   :  'Saat Anda melihat saldo di Aura Wallet atau melihat transaksi Anda di [etherscan.io](https://etherscan.io), Anda melihat data di blockchain, bukan di sistem privat Anda.',
+ONBOARD_blockchain_content__5   :  'Saat Anda melihat saldo di Aura Wallet atau melihat transaksi Anda di [explore.auraledger.com](https://explore.auraledger.com), Anda melihat data di blockchain, bukan di sistem privat Anda.',
 ONBOARD_blockchain_content__6   :  'Sekali lagi: **kami bukan sebuah bank**.',
 ONBOARD_interface_title__alt    :  'MEW adalah sebuah antarmuka',
 ONBOARD_why_title__alt          :  'Lalu...apa pentingnya?',
@@ -505,7 +505,7 @@ MYWAL_Content_2             : 'Pastkan Anda telah **menyimpan Kunci Privat dan/a
 MYWAL_Content_3             : 'Jika Anda akan memakai dompet ini dengan MyEtherWallet CX Anda ke depan, Kunci Privat/JSON dan password harus ditambahkan lagi secara manual. ',
 
 /* View Wallet Details */
-VIEWWALLET_Subtitle         : 'Memungkinkan Anda untuk mencetak Dompet Kertas dari berbagai format atau versi Kunci Privat. Hal ini diperlukan pada saat anda ingin [mengimpor akun Anda ke Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Jika Anda hanya ingin pengecekan saldo, pakailah salah satu layanan blockchain explorer seperti [etherscan.io](https://etherscan.io/). ',
+VIEWWALLET_Subtitle         : 'Memungkinkan Anda untuk mencetak Dompet Kertas dari berbagai format atau versi Kunci Privat. Hal ini diperlukan pada saat anda ingin [mengimpor akun Anda ke Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Jika Anda hanya ingin pengecekan saldo, pakailah salah satu layanan blockchain explorer seperti [explore.auraledger.com](https://explore.auraledger.com/). ',
 VIEWWALLET_Subtitle_Short   : 'Untuk pencetakan Dompet Kertas dari berbagai format Kunci Privat. ',
 VIEWWALLET_SuccessMsg       : 'Berhasil! Berikut detil dari dompet Anda. ',
 VIEWWALLET_ShowPrivKey      : '(show)',
@@ -620,7 +620,7 @@ GETH_GasLimit               : 'Melebihi limit blok gas ',
 GETH_NegativeValue          : 'Nilai negatif ',
 
 /* Parity Error Messages */
-PARITY_AlreadyImported      : "(parity-01) Transaksi dengan hash yang sama sudah pernah di-impor sebelumnya. A transaction with the same hash was already imported. It was probably already broadcast. To avoid duplicate transactions, check your address on [etherscan.io](https://etherscan.io) & wait 10 minutes before attempting to send again. [Learn More.](https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html)",
+PARITY_AlreadyImported      : "(parity-01) Transaksi dengan hash yang sama sudah pernah di-impor sebelumnya. A transaction with the same hash was already imported. It was probably already broadcast. To avoid duplicate transactions, check your address on [explore.auraledger.com](https://explore.auraledger.com) & wait 10 minutes before attempting to send again. [Learn More.](https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html)",
 PARITY_GasLimitExceeded     : "(parity-02) Biaya transaksi melebihi limit gas yang berlaku. Limit: {}, tersedia: {}. Coba turunkan gas yang disediakan. Transaction cost exceeds current gas limit. Limit: (d+), got: (d+). Please lower the gas limit to 21000 (for sending) or 200000 (for sending tokens or contracts) and try again. [Learn More](https://myetherwallet.github.io/knowledge-base/gas/what-is-gas-ethereum.html)",
 PARITY_InsufficientBalance  : "(parity-03) Dana tidak mencukupi. Akun yang dipakai untuk mengirim tidak memiliki dana yang cukup. Diperlukan {} dan hanya tersedia: {}. Insufficient balance. The account you tried to send transaction from does not have enough funds. If you believe this is in error, try using the 'Send Entire Balance' button, or pressing generate again. Required (d+) and got: (d+). [Learn More.](https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html)",
 PARITY_InsufficientGasPrice : "(parity-04) Biaya transaksi terlalu rendah. Tidak memenuhi nilai biaya minimal untuk node Anda(minimal: {}, got: {}). Coba naikkan biaya transaksi. There is another transaction with same nonce in the queue, or the transaction fee is too low. Try incrementing the nonce by clicking the Generate button again. [Learn More.](https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html)",
@@ -826,10 +826,10 @@ HELP_15_Title               : '15) Kenapa akun yang baru saja saya buat tidak mu
 HELP_15_Desc_1              : 'Account hanya akan muncul di explorer blockchain begitu akun memiliki aktivitas di dalamnya&mdash;misalnya, setelah Anda memindahkan beberapa Ether ke sana. ',
 
 HELP_16_Title               : '16) Bagaimana cara memeriksa saldo akun saya? ',
-HELP_16_Desc_1              : 'Anda bisa menggunakan eksplorer blockchain seperti [etherscan.io](https://etherscan.io/). Paste alamat Anda ke dalam search bar dan riwayat transaksi Anda akan ditampilkan. Contohnya, [akun donasi kami](https://etherscan.io/address/0x7cb57b5a97eabe94205c07890be4c1ad31e486a8) dilihat di etherscan.io ',
+HELP_16_Desc_1              : 'Anda bisa menggunakan eksplorer blockchain seperti [explore.auraledger.com](https://explore.auraledger.com/). Paste alamat Anda ke dalam search bar dan riwayat transaksi Anda akan ditampilkan. Contohnya, [akun donasi kami](https://explore.auraledger.com/#/address/0x7cb57b5a97eabe94205c07890be4c1ad31e486a8) dilihat di explore.auraledger.com ',
 
 HELP_17_Title               : '17) Mengapa saldo saya tidak muncul saat saya membuka dompet saya? ',
-HELP_17_Desc_1              : 'Hal ini kemungkinan besar karena Anda berada di belakang firewall. API yang kami gunakan untuk mendapatkan saldo dan mengonversi saldo tersebut terkadang diblokir oleh firewall. Anda masih bisa mengirim transaksi, Anda hanya perlu menggunakan metode yang berbeda untuk melihat saldo tersebut, misalnya memakai etherscan.io ',
+HELP_17_Desc_1              : 'Hal ini kemungkinan besar karena Anda berada di belakang firewall. API yang kami gunakan untuk mendapatkan saldo dan mengonversi saldo tersebut terkadang diblokir oleh firewall. Anda masih bisa mengirim transaksi, Anda hanya perlu menggunakan metode yang berbeda untuk melihat saldo tersebut, misalnya memakai explore.auraledger.com ',
 
 HELP_18_Title               : '18) Dimana file dompet geth saya? ',
 

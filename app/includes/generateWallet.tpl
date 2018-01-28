@@ -64,7 +64,8 @@
       </h2>
 
       <ul>
-        <li>
+        <!--
+		  <li>
           <p>
             <strong>
               Ledger / TREZOR / Digital Bitbox
@@ -100,7 +101,7 @@
           </p>
         </li>
       </ul>
-
+-->
       <ul>
         <li>
           <p>
@@ -122,7 +123,7 @@
         <li>
           <p>
             <strong>
-              Mist / Geth / Parity:
+              Aura Node:
             </strong>
             <span translate="GEN_Help_1">
               Use your

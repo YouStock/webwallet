@@ -111,7 +111,7 @@ ONBOARD_welcome_content__1      :  'Please take some time to understand this for
 ONBOARD_welcome_content__2      :  'Your funds will be stolen if you do not heed these warnings.',
 ONBOARD_welcome_content__3      :  'We know this click-through stuff is annoying. We are sorry.',
 ONBOARD_welcome_content__4      :  'What is MEW? ',
-ONBOARD_welcome_content__5      :  'MyEtherWallet is a free, open-source, client-side interface.',
+ONBOARD_welcome_content__5      :  'Aura Wallet is based on MyEtherWallet , a free, open-source, client-side interface.',
 ONBOARD_welcome_content__6      :  'We allow you to interact directly with the blockchain while remaining in full control of your keys &amp; your funds.',
 ONBOARD_welcome_content__7      :  '**You** and **only you** are responsible for your security.',
 ONBOARD_welcome_content__8      :  'We cannot recover your funds or freeze your account if you visit a phishing site or lose your private key.',
@@ -123,7 +123,7 @@ ONBOARD_bank_content__4         :  'The bank allows you to write a check or char
 ONBOARD_bank_content__5         :  'You have an account *with the bank or exchange* and they decide how much money you can send, where you can send it, and how long to hold on a suspicious deposit. All for a fee.',
 ONBOARD_welcome_title__alt      :  'Introduction',
 ONBOARD_interface_title         :  'MyEtherWallet is an Interface',
-ONBOARD_interface_content__1    :  'When you create an account on MyEtherWallet you are generating a cryptographic set of numbers: your private key and your public key (address).',
+ONBOARD_interface_content__1    :  'When you create an account on Aura Wallet you are generating a cryptographic set of numbers: your private key and your public key (address).',
 ONBOARD_interface_content__2    :  'The handling of your keys happens entirely on your computer, inside your browser.',
 ONBOARD_interface_content__3    :  'We never transmit, receive or store your private key, password, or other account information.',
 ONBOARD_interface_content__4    :  'We do not charge a transaction fee.',
@@ -138,7 +138,7 @@ ONBOARD_blockchain_content__1   :  'The blockchain is like a huge, global, decen
 ONBOARD_blockchain_content__2   :  'It keeps track of who sent how many coins to whom, and what the balance of every account is.',
 ONBOARD_blockchain_content__3   :  'It is stored and maintained by thousands of people (miners) across the globe who have special computers.',
 ONBOARD_blockchain_content__4   :  'The blocks in the blockchain are made up of all the individual transactions sent from MyEtherWallet, MetaMask, Exodus, Mist, Geth, Parity, and everywhere else.',
-ONBOARD_blockchain_content__5   :  'When you see your balance on Aura Wallet or view your transactions on [etherscan.io](https://etherscan.io), you are seeing data on the blockchain, not in our personal systems.',
+ONBOARD_blockchain_content__5   :  'When you see your balance on Aura Wallet or view your transactions on [explore.auraledger.com](https://explore.auraledger.com), you are seeing data on the blockchain, not in our personal systems.',
 ONBOARD_blockchain_content__6   :  'Again: **we are not a bank**.',
 ONBOARD_interface_title__alt    :  'MEW is an Interface',
 ONBOARD_why_title__alt          :  'But...why does this matter?',
@@ -479,7 +479,7 @@ MSG_info3: 'یک دلیل مخصوص برای این پیام انتخاب کن�
 
 /* View Wallet Details */
 
-VIEWWALLET_Subtitle: 'این موضوع به شما اجازه می دهد که نسخه های مختلفی از کلید خصوصی را دانلود کنید و از کیف پول کاغذی خود دوباره پرینت بگیرید. شاید بخواهید این کار را جهت انتقال حساب خود به [Geth یا Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/) انجام دهید. اگر می خواهید موجودی خود را ببینید پیشنهاد می کنیم که از یک مرورگر بلاکچین مثل [etherscan.io](https://etherscan.io/) استفاده کنید. ',
+VIEWWALLET_Subtitle: 'این موضوع به شما اجازه می دهد که نسخه های مختلفی از کلید خصوصی را دانلود کنید و از کیف پول کاغذی خود دوباره پرینت بگیرید. شاید بخواهید این کار را جهت انتقال حساب خود به [Geth یا Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/) انجام دهید. اگر می خواهید موجودی خود را ببینید پیشنهاد می کنیم که از یک مرورگر بلاکچین مثل [explore.auraledger.com](https://explore.auraledger.com/) استفاده کنید. ',
 VIEWWALLET_Subtitle_Short: 'این موضوع به شما اجازه می دهد که نسخه های مختلفی از کلید خصوصی را دانلود کنید و از کیف پول کاغذی خود دوباره پرینت بگیرید. ',
 VIEWWALLET_SuccessMsg: 'با موفقیت انجام شد. می توانید جزئیات کیف پول خود را ببینید. ',
 
@@ -541,7 +541,7 @@ GETH_NegativeValue              :  '(geth-07) مقدار منفی. Negative valu
 GETH_Nonce                      :  "(geth-08) This TX's [nonce](https://myetherwallet.github.io/knowledge-base/transactions/what-is-nonce.html) is too low. Try incrementing the nonce by pressing the Generate button again, or [replace the pending transaction](https://myetherwallet.github.io/knowledge-base/transactions/check-status-of-ethereum-transaction.html).",
 GETH_NonExistentAccount         :  '(geth-09) حساب وجود ندارد و یا موجودی حساب کم است. Account does not exist or account balance too low',
 
-PARITY_AlreadyImported          :  "(parity-01) A transaction with the same hash was already imported. It was probably already broadcast. To avoid duplicate transactions, check your address on [etherscan.io](https://etherscan.io) & wait 10 minutes before attempting to send again. [Learn More.](https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html)",
+PARITY_AlreadyImported          :  "(parity-01) A transaction with the same hash was already imported. It was probably already broadcast. To avoid duplicate transactions, check your address on [explore.auraledger.com](https://explore.auraledger.com) & wait 10 minutes before attempting to send again. [Learn More.](https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html)",
 PARITY_GasLimitExceeded         :  "(parity-02) Transaction cost exceeds current gas limit. Limit: (d+), got: (d+). Please lower the gas limit to 21000 (for sending) or 200000 (for sending tokens or contracts) and try again. [Learn More](https://myetherwallet.github.io/knowledge-base/gas/what-is-gas-ethereum.html)",
 PARITY_InsufficientBalance      :  "(parity-03) Insufficient balance. The account you tried to send transaction from does not have enough funds. If you believe this is in error, try using the 'Send Entire Balance' button, or pressing generate again. Required (d+) and got: (d+). [Learn More.](https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html)",
 PARITY_InsufficientGasPrice     :  "(parity-04) There is another transaction with same nonce in the queue, or the transaction fee is too low. Try incrementing the nonce by clicking the Generate button again. [Learn More.](https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html)",
@@ -758,10 +758,10 @@ HELP_15_Title: 'سوال 15: چرا حسابی که همین الان ساخته
 HELP_15_Desc_1: 'HELP_15_Desc_1',
 
 HELP_16_Title: 'سوال 16: چگونه موجودی حساب خود را ببینم؟ ',
-HELP_16_Desc_1: 'برای این کار می توانید از یک مرورگر بلاکچین مثل  [etherscan.io](https://etherscan.io/) استفاده کنید. آدرس خود را در قسمت search (جستجو) وارد کنید و بعد می توانید آدرس و سابقه تراکنش های خود را مشاهده کنید. برای مثال حساب اهدایی ما [بدین صورت](https://etherscan.io/address/0x7cb57b5a97eabe94205c07890be4c1ad31e486a8) است. ',
+HELP_16_Desc_1: 'برای این کار می توانید از یک مرورگر بلاکچین مثل  [explore.auraledger.com](https://explore.auraledger.com/) استفاده کنید. آدرس خود را در قسمت search (جستجو) وارد کنید و بعد می توانید آدرس و سابقه تراکنش های خود را مشاهده کنید. برای مثال حساب اهدایی ما [بدین صورت](https://explore.auraledger.com/#/address/0x7cb57b5a97eabe94205c07890be4c1ad31e486a8) است. ',
 
 HELP_17_Title: 'سوال 17: چرا زمانی که قفل کیف پول خود را باز می کنم موجودی من نمایش داده نمی شود؟ ',
-HELP_17_Desc_1: 'این موضوع احتمالا بخاطر این است که شما پشت یک firewall (دیوار آتشین) هستید. API که ما برای بدست آوردن موجودی استفاده می کنیم به دلایلی معمولا توسط فایر وال ها بلاک می شوند. شما همچنان می توانید تراکنش هایتان را ارسال کنید و برای دیدن موجودی خود تنها باید از راه دیگری (مثل etherscan.io) استفاده کنید. ',
+HELP_17_Desc_1: 'این موضوع احتمالا بخاطر این است که شما پشت یک firewall (دیوار آتشین) هستید. API که ما برای بدست آوردن موجودی استفاده می کنیم به دلایلی معمولا توسط فایر وال ها بلاک می شوند. شما همچنان می توانید تراکنش هایتان را ارسال کنید و برای دیدن موجودی خود تنها باید از راه دیگری (مثل explore.auraledger.com) استفاده کنید. ',
 
 HELP_18_Title: 'سوال 18: فایل مربوط به کیف پول geth کجا قرار دارد؟ ',
 
