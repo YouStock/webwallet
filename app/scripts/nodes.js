@@ -4,7 +4,7 @@ nodes.customNode = require('./nodeHelpers/customNode');
 nodes.infuraNode = require('./nodeHelpers/infura');
 nodes.metamaskNode = require('./nodeHelpers/metamask');
 nodes.nodeTypes = {
-	 AURA: "AURA",
+	 ARA: "ARA",
 	 ETH: "ETH",
     ETC: "ETC",
     MUS: "MUSIC",
@@ -244,10 +244,10 @@ nodes.nodeList = {
         'lib': new nodes.customNode('https://jsonrpc.ellaism.org', '')
     },
 	 'aura': {
-        'name': 'AURA',
+        'name': 'ARA',
         'blockExplorerTX': 'https://explore.auraledger.com/#/tx/[[txHash]]',
         'blockExplorerAddr': 'https://explore.auraledger.com/#/address/[[address]]',
-        'type': nodes.nodeTypes.AURA,
+        'type': nodes.nodeTypes.ARA,
         'eip155': true,
         'chainId': 312,
         'tokenList': require('./tokens/auraTokens.json'),
