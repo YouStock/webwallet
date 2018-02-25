@@ -8,9 +8,9 @@
 <meta property="og:site_name" content="Aura Wallet: Your Key to Aura">
 <meta name="twitter:title" content="Aura Wallet: Your Key to Aura">
 <meta name="apple-mobile-web-app-title" content="Aura Wallet: Your Key to Aura">
-<link href="https://www.myetherwallet.com" rel="canonical">
-<meta content="https://www.myetherwallet.com" property="og:url">
-<meta content="https://www.myetherwallet.com" name="twitter:url">
+<link href="https://wallet.auraledger.com" rel="canonical">
+<meta content="https://wallet.auraledger.com" property="og:url">
+<meta content="https://wallet.auraledger.com" name="twitter:url">
 <link rel="stylesheet" href="css/etherwallet-master.min.css">
 <script type="text/javascript" src="js/etherwallet-static.min.js"></script>
 <script type="text/javascript" src="js/etherwallet-master.js"></script>
@@ -31,7 +31,7 @@
 <meta name="msapplication-config" content="images/fav/browserconfig.xml">
 <meta name="theme-color" content="#1d6986">
 <meta name="apple-mobile-web-app-status-bar-style" content="#1d6986">
-<meta property="og:url" content="https://www.myetherwallet.com" />
+<meta property="og:url" content="https://wallet.auraledger.com" />
 <meta property="og:title" content="Aura Wallet  &middot; Your Key to Aura" />
 <meta property="og:type" content="website">
 <meta property="og:image" content="/images/myetherwallet-logo-banner.png" />
@@ -49,14 +49,14 @@
 "@type" : "Organization",
 "name" : "MyEtherWallet",
 "legalName" : "MyEtherWallet LLC",
-"url" : "https://www.myetherwallet.com/",
+"url" : "https://wallet.auraledger.com/",
 "contactPoint" : [{
   "@type" : "ContactPoint",
-  "email" : "support@myetherwallet.com",
-  "url"   : "https://myetherwallet.com",
+  "email" : "info@youstock.io",
+  "url"   : "https://www.auraledger.com",
   "contactType" : "customer service"
 }],
-"logo" : "https://www.myetherwallet.com/images/myetherwallet-logo.png",
+"logo" : "https://wallet.auraledger.com/images/myetherwallet-logo.png",
 "description": "Aura Wallet is a free, open-source, client-side interface for generating Aura wallets &amp; more. Interact with the Aura blockchain easily &amp; securely.",
 "sameAs" : [
   "https://wallet.auraledger.com/",
